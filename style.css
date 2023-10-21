@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.twitter-container {
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    margin-left: 60px;
+    padding-top: 1px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  padding: 10px 0 0 13px;
+}
+.logo:hover {
+    cursor: pointer;
+    background-color: #eff3f4;
+    border-radius: 50px;
+  }
+.logo svg {
+  width: 28px;
+  height: 23px;
+  transition-property: background;
+  transition-duration: 0.2s;
+}
+
+.sidebar-icons {
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.icon-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    line-height: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+.icon-text:hover {
+    cursor: pointer;
+    background-color: #eff3f4;
+}
+
+.icon-text .icon {
+    width: 24px;
+    height: 26px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.icon-text .text {
+    margin: 0 16px 0 20px;
+    font-size: 20px;
+}
+
+/* BUTTON */
+.post-button button {
+    background-color: rgb(29 155 240);
+    color: white;
+    width: 210px;
+    height: 52px;
+    border-radius: 50px;
+    border: none;
+}
+
+/* PROFILE SECTION */
+.profile-area {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px 10px 10px 0;
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 50px;
+}
+.profile-area:hover {
+    cursor: pointer;
+    background-color: #eff3f4;
+}
+.profile-area img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.profile-area .info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 8px;
+    height: 100%;
+}
+.profile-area .icon {
+    width: 24px;
+    height: 26px;
+    font-size: 15px;
+    font-weight: 700;
+}
+  
