@@ -1,7 +1,7 @@
 # twitter-solo
 
 # background story
-- when I started this project, it was supposed to be a Twitter Clone, it was an independent web development endeavor of mine and recently it has formerly been renamed to 'X'.
+- when I started this project, it was supposed to be a Twitter Clone, it was an independent web development endeavor of mine and recently it has formerly been renamed to 'X'. This is therefore the X clone.
 
  # technologies used
  - HTML
